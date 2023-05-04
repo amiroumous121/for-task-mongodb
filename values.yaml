@@ -1,0 +1,11 @@
+ architecture: replicaset
+   replicaCount: 3
+
+   auth:
+     rootPassword: my-root-password
+     username: my-app-username
+     password: my-app-password
+     database: my-app-database
+
+   persistence:
+     size: 8Gi
